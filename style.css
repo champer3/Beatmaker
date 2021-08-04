@@ -32,6 +32,18 @@ svg{
     background: rgb(224, 194, 160);
 }
 
+.kick-pad.active{
+    background: rgb(59, 197, 231);
+}
+
+.snare-pad.active{
+    background: rgb(281, 58, 178);
+}
+
+.hihat-pad.active{
+    background: rgb(241, 158, 64);
+}
+
 .sequencer{
     display: flex;
     min-height: 100vh;
@@ -74,3 +86,22 @@ svg{
     transition: all 0.5s ease;
 }
 
+.pad{
+    transition: all 0.5s ease;
+}
+
+.play{
+    padding: 1rem 2rem;
+    font-size: 1.5rem;
+    background: rgb(88, 87, 87);
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-top: 3rem;
+}
+
+
+select{
+    padding: 1rem;
+    font-size: 1rem;
+}
